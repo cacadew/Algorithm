@@ -2,7 +2,7 @@ package InputOutput;
 
 import java.util.Scanner;
 
-//¹®Á¦¹øÈ£ : 10952
+//ë¬¸ì œë²ˆí˜¸ : 10952
 public class SumAB_4 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
