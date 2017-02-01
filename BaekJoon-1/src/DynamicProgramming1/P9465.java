@@ -20,8 +20,6 @@ import java.util.Scanner;
  * 5) ans는 D[n][0],D[n][1],D[n][2] 중에서 최대값이 된다.
  */
 public class P9465 {
-	static int[] dx = {0,0,1,-1};
-	static int[] dy = {1,-1,0,0};
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
