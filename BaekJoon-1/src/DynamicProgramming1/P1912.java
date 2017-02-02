@@ -13,6 +13,7 @@ import java.util.Scanner;
  * 3) 2가지 케이스가 있다. 하나는 A[i-1]로 끝나는 연속합에 포함 =>D[i-1]+A[i]
  * 4) 또 하나는 A[i]를 연속합의 시작으로 하는 것이다. => D[i] = A[i]
  * 5) 따라서 D[i-1]+A[i] 와 A[i]를 비교하여 D[i-1]+A[i]가 크면 D[i] = D[i-1]+A[i], A[i]가 크면 D[i] = A[i] 해주면 된다.
+ * 6) 여기서는 max 변수를 선언 안했지만, (Arrays.sort()했기 때문에) 주의할 점이 음수가 들어오기 때문에 처음 초기화할때 max=0; 으로 하면 안됨. max=d[i];가 적합함
  */
 public class P1912 {
 	public static void main(String[] args) {
