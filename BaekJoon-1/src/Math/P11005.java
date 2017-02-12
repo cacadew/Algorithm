@@ -32,8 +32,8 @@ public class P11005 {
 			m.add((int) (temp%b));
 			temp = temp/b;
 		}
-		m.add((int)(temp%b));
-		if(temp/b != 0)
+		m.add((int)(temp%b));//제일 마지막 나머지
+		if(temp/b != 0)// 접근방법 2번의 주의사항. 마지막 연산이 0이 아닐경우 제일 앞자리에 몫이 출력되야 하므로 ArrayList에 add한다.
 			m.add((int)(temp/b));
 		
 		//Collections.reverse(m); 어레이리스트 순서 바꾸기
