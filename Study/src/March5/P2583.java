@@ -25,7 +25,7 @@ import java.util.Scanner;
  *  무조건 체크하고 나서 큐에 넣어야함.
  * (백준-1>Graph>P2667 단지번호붙이기 문제와 비슷)
  */
-public class P2653 {
+public class P2583 {
 	static final int[] dx = {0,0,-1,1};
 	static final int[] dy = {1,-1,0,0};
 	static int[][] map;
